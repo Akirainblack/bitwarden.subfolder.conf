@@ -1,5 +1,6 @@
-## Version 2020/12/09
-
+## Version 2021/02/05
+## Environmental Variable DOMAIN=https://<DOMAIN>/bitwarden must be set in bitwarden container including subfolder.
+## This is using ports 80 and 3012
 location /bitwarden {
     return 301 $scheme://$host/bitwarden/;
 }
